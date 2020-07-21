@@ -1,4 +1,4 @@
-package com.iramarfalcao.githubpop.views.adapter
+package com.iramarfalcao.githubpop.ui.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -32,7 +32,7 @@ class RepositoryAdapter(private val list: ArrayList<Repository>, val context: Co
     override fun onBindViewHolder(holder: RepositoryViewHolder, position: Int) {
         holder.title.text = list[position].title
         holder.description.text = list[position].description
-//        holder.avatar.text = list[position].avatar
+//        holder.avatar =
         holder.username.text = list[position].username
         holder.name.text = list[position].name
         holder.forks.text = list[position].forks.toString()

@@ -1,4 +1,4 @@
-package com.iramarfalcao.githubpop.views
+package com.iramarfalcao.githubpop.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.iramarfalcao.githubpop.R
 import com.iramarfalcao.githubpop.models.Repository
-import com.iramarfalcao.githubpop.views.adapter.RepositoryAdapter
+import com.iramarfalcao.githubpop.ui.adapter.RepositoryAdapter
 
 class ListRepositoryActivity : AppCompatActivity() {
 
